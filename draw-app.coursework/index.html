@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <title>p5.gui example</title>
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.js"></script>
+    <script src="lib/quicksettings.js" type="text/javascript"></script>
+    <script src="lib/p5.gui.js" type="text/javascript"></script>
+    <style> 
+        body { padding: 0; margin: 0; } 
+        canvas { vertical-align: top; } 
+    </style>
+    <script src="sketch.js"></script>
+    <script src="toolbox.js"></script>
+    
+    <script src="helperFunctions.js"></script>
+    <script src="freehandTool.js"></script>
+    <script src="lineToTool.js"></script>
+    <script src="mirrorDrawTool.js"></script>
+    <script src="sprayCanTool.js"></script>
+    <script src="starTool.js"></script>
+    <script src="flowerTool.js"></script>
+    <script src="treev1.js"></script>
+    <script src="tree.js"></script>
+    <script src="Bee.js"></script>
+    <script src="shapesTool.js"></script>
+    <script src="chooseshapeTool.js"></script>
+    <script src="cutTool.js"></script>
+    <script src="stampsTool.js"></script>
+    <script src="textTool.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box header">
+            My Drawing App
+            
+            <button id="clearButton">Clear</button>
+            <button id="saveImageButton">Save Image</button>
+            <button id="layer">Layer 1</button>
+            <button id="layer2">Layer 2</button>
+        </div>
+        <div class="box" id="sidebar"></div>
+        <div id="content"></div>
+        <div class="box colourPalette"></div>
+        <div class="box options"></div>
+        <div id="numberOfStarsControl"></div>
+        <div id="sizeOfStarControl"></div>
+        <div id="numbersOfPointsControl"></div>
+        <div id="4thOption"></div>
+    </div>
+</body>
+</html>
